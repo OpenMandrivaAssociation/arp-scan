@@ -41,3 +41,18 @@ rm -rf %{buildroot}
 %{_mandir}/man1/get-oui.1*
 %{_mandir}/man5/mac-vendor.5*
 
+
+
+%changelog
+* Mon Jul 18 2011 Guillaume Rousse <guillomovitch@mandriva.org> 1.8.1-1mdv2011
++ Revision: 690343
+- update to new version 1.8.1
+
+* Thu Mar 10 2011 Guillaume Rousse <guillomovitch@mandriva.org> 1.8-1
++ Revision: 643448
+- update to new version 1.8
+
+* Fri Aug 27 2010 Guillaume Rousse <guillomovitch@mandriva.org> 1.7-1mdv2011.0
++ Revision: 573467
+- import arp-scan
+
