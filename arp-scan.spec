@@ -1,5 +1,5 @@
 Name:		arp-scan
-Version:	1.9.7
+Version:	1.9.8
 Release:	1
 Summary:	ARP scanning and fingerprinting tool
 License:	BSD
