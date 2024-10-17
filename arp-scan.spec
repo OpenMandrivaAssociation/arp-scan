@@ -4,7 +4,7 @@ Release:	1
 Summary:	ARP scanning and fingerprinting tool
 License:	BSD
 Group:		Networking/Other
-URL:		http://www.nta-monitor.com/tools/arp-scan
+URL:		https://www.nta-monitor.com/tools/arp-scan
 Source:		https://github.com/royhills/arp-scan/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pcap-devel
 
