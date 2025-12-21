@@ -6,6 +6,11 @@ License:	BSD
 Group:		Networking/Other
 URL:		https://www.nta-monitor.com/tools/arp-scan
 Source:		https://github.com/royhills/arp-scan/archive/%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pcap-devel
 
 %description
