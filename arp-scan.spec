@@ -37,6 +37,7 @@ autoheader
 %{_bindir}/get-iab
 %{_bindir}/get-oui
 %{_datadir}/arp-scan
+%config(noreplace) %{_sysconfdir}/arp-scan/mac-vendor.txt
 %{_mandir}/man1/arp-fingerprint.1*
 %{_mandir}/man1/arp-scan.1*
 %{_mandir}/man1/get-oui.1*
