@@ -1,17 +1,18 @@
 Name:		arp-scan
-Version:	1.9.8
+Version:	1.10.0
 Release:	1
 Summary:	ARP scanning and fingerprinting tool
 License:	BSD
 Group:		Networking/Other
-URL:		https://www.nta-monitor.com/tools/arp-scan
-Source:		https://github.com/royhills/arp-scan/archive/%{version}/%{name}-%{version}.tar.gz
+URL:		https://github.com/royhills/arp-scan
+Source:		https://github.com/royhills/arp-scan/releases/download/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool-base
 BuildRequires:	slibtool
 BuildRequires:	make
 BuildRequires:	pcap-devel
+BuildRequires:	pkgconfig(libcap)
 
 %description
 arp-scan is a command-line tool that uses the ARP protocol to discover and
@@ -38,6 +39,5 @@ autoheader
 %{_datadir}/arp-scan
 %{_mandir}/man1/arp-fingerprint.1*
 %{_mandir}/man1/arp-scan.1*
-%{_mandir}/man1/get-iab.1*
 %{_mandir}/man1/get-oui.1*
 %{_mandir}/man5/mac-vendor.5*
